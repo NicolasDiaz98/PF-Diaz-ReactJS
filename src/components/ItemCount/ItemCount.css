@@ -1,0 +1,47 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .Controls {
+    align-items: center;
+    display: flex;
+  }
+  
+  .Button {
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .Number {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .Button:hover {
+    background-color: #0069d9;
+  }
+  
+  .Button:disabled {
+    background-color: #d8d8d8;
+    cursor: not-allowed;
+  }
+  
+  .Button:disabled:hover {
+    background-color: #d8d8d8;
+  }

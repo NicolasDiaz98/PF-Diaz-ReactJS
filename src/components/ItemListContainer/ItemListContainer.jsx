@@ -18,7 +18,7 @@ const ItemListContainer = ({ greeting }) => {
         setProducts(response)
       })
       .catch(error => {
-        console.error(error);
+        console.error(error)
       })
   }, [categoryId])
 
