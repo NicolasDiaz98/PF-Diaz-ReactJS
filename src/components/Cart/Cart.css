@@ -1,0 +1,11 @@
+.Button {
+    font-size: 30px;
+}
+
+.Total {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}

@@ -1,0 +1,40 @@
+.CartItem {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.CartTitle > h2 {
+   color: white; 
+   font-size: 40px;
+}
+
+.CartImg > img {
+    height: 80px;
+    width: 80px;
+}
+
+.CartInfo {
+    display: flex;
+    gap: 50px;
+}
+
+.CartInfo > p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.Delte {
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonDelete {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
