@@ -8,9 +8,9 @@ const NavBar = () => {
       <nav>
           <Link to='/'><img src={logo} alt="Logo" /></Link>
           <div className='Categories'>
-              <NavLink to={`/category/novedades`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Novedades</NavLink>
-              <NavLink to={`/category/guantes`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Guantes</NavLink>
-              <NavLink to={`/category/ofertas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Ofertas</NavLink>
+              <NavLink to={`/category/Novedades`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Novedades</NavLink>
+              <NavLink to={`/category/Guantes`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Guantes</NavLink>
+              <NavLink to={`/category/Ofertas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Ofertas</NavLink>
           </div>
           <CartWidget />
       </nav>

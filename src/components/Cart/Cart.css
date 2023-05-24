@@ -9,3 +9,14 @@
     flex-direction: row-reverse;
     margin-top: 50px;
 }
+
+.Return {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.Return > h1 {
+    font-size: 50px;
+}
