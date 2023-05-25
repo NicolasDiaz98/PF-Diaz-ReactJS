@@ -4,7 +4,7 @@ import { CartContext } from "../../context/CartContext"
 import { Timestamp, addDoc, collection, documentId, getDocs, query, where, writeBatch } from "firebase/firestore"
 import CheckoutForm from "../CheckoutForm/CheckoutForm"
 import { db } from "../../services/firebase/firebaseConfig"
-
+import Footer from '../Footer/Footer'
 
 
 
@@ -81,6 +81,8 @@ const Checkout = () => {
                     <h1 className="Title">El ID de su orden es: {orderId}</h1>
                     <h2>Gracias por confiar en nosotros!</h2>
                     <img src="https://cdn2.mediotiempo.com/uploads/media/2020/05/11/iker-casillas-festejando-obtencion-mundial.jpg" alt="Iker Casillas" />
+
+                    <Footer />
                 </div>
     }
 
@@ -88,6 +90,7 @@ const Checkout = () => {
         <div className='Container-Title'>
             <h1 className="Title">Checkout</h1>
             <CheckoutForm onConfirm={createOrder}/>
+            <Footer />
         </div>
     )
 }

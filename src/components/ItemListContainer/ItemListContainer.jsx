@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom"
 
 import { getDocs, collection, query, where } from 'firebase/firestore'
 import { db } from '../../services/firebase/firebaseConfig'
+import Footer from '../Footer/Footer'
 
 const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = useState([])
@@ -46,10 +47,14 @@ const ItemListContainer = ({ greeting }) => {
         (<div>
           <h1>{greeting}</h1>
           <ItemList products={products} />
-      </div>)
+          <Footer />
+      </div>
+      
+      )
       }
       
     </div>
+    
   )
 }
 
