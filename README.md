@@ -12,10 +12,10 @@ OnlyGoalkeeper es el resultado del proyecto final del curso React Js de CoderHou
 
 ## Screenshots
 
-![Screenshot](C:\Users\Nico\Documents\APP-React\src\assets\Captura-1.jpg)
-![Screenshot](C:\Users\Nico\Documents\APP-React\src\assets\Captura-2.jpg)
-![Screenshot](C:\Users\Nico\Documents\APP-React\src\assets\Captura-3.jpg)
-![Screenshot](C:\Users\Nico\Documents\APP-React\src\assets\Captura-4.jpg)
+![Screenshot](src/assets/Captura-1.jpg)
+![Screenshot](src/assets/Captura-2.jpg)
+![Screenshot](src/assets/Captura-3.jpg)
+![Screenshot](src/assets/Captura-4.jpg)
 
 
 
