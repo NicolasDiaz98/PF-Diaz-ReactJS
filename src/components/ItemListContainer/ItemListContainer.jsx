@@ -27,13 +27,13 @@ const ItemListContainer = ({ greeting }) => {
             const data = doc.data()
             return {id: doc.id, ...data}
           })
-          setProducts(productsAdapted);
+          setProducts(productsAdapted)
     })
     .catch(error => {
-      console.log(error);
+      console.error(error)
     })
     .finally( () => {
-      setLoading(false);
+      setLoading(false)
     })
   }, [categoryId])
 
